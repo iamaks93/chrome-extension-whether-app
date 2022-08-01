@@ -1,0 +1,58 @@
+body {
+    height: 400px;
+    width: 400px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.location-wrapper {
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    position: relative;
+}
+#location-name {
+    font-size: 30px;
+}
+
+#country-name {
+    font-size: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    background: skyblue;
+    padding: 2px;
+    border-radius: 3px;
+    color: white;
+}
+
+.temperature-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.temperature-wrapper #temperature {
+    font-size: 35px;
+}
+.temperature-wrapper sup {
+    font-size: 25px;
+}
+
+.feels-like-wrapper {
+    font-weight: 400;
+    font-size: 18px;
+}
+div#icon-desc {
+    font-size: 18px;
+    font-weight: 400;
+}
